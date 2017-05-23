@@ -8,7 +8,7 @@ public class Fattoriale {
 		int i; // per iterare tra 1 e n
 		/* calcola il fattoriale di n */
 		fatt = 1;
-		for (i=1; i<=n; i++) {
+		for (i=1; i<n; i++) {
 			fatt *= i;
 		}
 		return fatt;
